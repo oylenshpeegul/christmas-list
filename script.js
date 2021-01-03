@@ -10,7 +10,7 @@ let newPicks = [];
 
 function start() {
     
-    H1.textContent = "Christmas List " + year;
+    H1.textContent = "Christmas " + year;
     showPicks(previousPicks);
 
     Buttons.innerHTML = `
@@ -39,7 +39,9 @@ function getPicks() {
         }
     }
 
-    H1.textContent = "Christmas List " + (year + 1);
+    console.log(newPicks);
+    
+    H1.textContent = "Christmas " + (year + 1);
     showPicks(newPicks);
     Buttons.innerHTML = `
         <input id="restart" type="button" value="Start over" onclick="start()" />
