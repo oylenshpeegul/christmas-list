@@ -19,6 +19,8 @@ function start() {
 }
 
 function showPicks(picks) {
+    console.log(picks);
+    
     Text.innerHTML = "";
     for(let i = 0; i < picks.length; i++) {
         Text.innerHTML += "<p>" + names[i] + " has " + names[picks[i]] + "</p>";
@@ -39,8 +41,6 @@ function getPicks() {
         }
     }
 
-    console.log(newPicks);
-    
     H1.textContent = "Christmas " + (year + 1);
     showPicks(newPicks);
     Buttons.innerHTML = `
