@@ -1,0 +1,27 @@
+body {
+    background: #6dff6d;
+    font-size: 100%;
+}
+
+#buttons, h1, p {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 2em;
+}
+
+input {
+    font-size: 1.5em;
+    background: #dc4444;
+    color: #f7fff7;
+    margin: 2%;
+    margin-top: 1%;
+    padding: 2%;
+    border-radius: .5em;
+    border-style: none;
+}
