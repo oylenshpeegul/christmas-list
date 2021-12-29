@@ -4,8 +4,8 @@ const Text = document.querySelector("#text")
 const Buttons = document.querySelector("#buttons")
 
 let names = ["Cindy", "Diana", "Donna", "Michelle", "Sharon", "Stephen", "Tim"];
-let previousPicks = [6, 0, 5, 4, 1, 3, 2];
-let year = 2021;
+let previousPicks = [3, 6, 0, 1, 2, 4, 5];
+let year = 2022;
 let newPicks = [];
 
 function start() {
