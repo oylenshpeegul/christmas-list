@@ -3,9 +3,12 @@ const H1 = document.querySelector("h1")
 const Text = document.querySelector("#text")
 const Buttons = document.querySelector("#buttons")
 
+//            0        1        2        3           4         5          6
 let names = ["Cindy", "Diana", "Donna", "Michelle", "Sharon", "Stephen", "Tim"];
-let previousPicks = [3, 6, 0, 1, 2, 4, 5];
-let year = 2022;
+// let previousPicks = [3, 6, 0, 1, 2, 4, 5];
+// let year = 2022;
+let previousPicks = [4, 0, 5, 2, 6, 3, 1];
+let year = 2023;
 let newPicks = [];
 
 function start() {
